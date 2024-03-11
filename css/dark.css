@@ -1,17 +1,25 @@
 
 body{
     font-family: Arial, sans-serif;
-    background-color: #948a00;
+    background-color: #555655;
     margin: 0;
     padding: 0;
+}
+
+a {
+    color: bisque;
+}
+
+a:hover {
+    color: aqua;
 }
 #content {
     width: 60%;
     margin: auto;
-    border: 1px solid #000000;
+    border: 1px solid #000340;
 }
 #banner {
-    background-color: #c50000;
+    background-color: #580858 ;
     text-align: center;
     border: 1px solid #000000;
     margin: 10px;
@@ -20,22 +28,11 @@ body{
 #blogposts {
     margin: 10px;
     border: 1px solid #000000;
-    background-color: blueviolet;
+    background-color: rgb(8, 0, 117);
 }
 .post {
     margin: 10px;
     border: 1px solid #000000;
     padding: 10px;
-    background-color: #746aff;
-}
-
-.post .left {
-    float: center;
-    margin-right: 10px;
-}
-
-.Gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    background-color: #6affa8;
 }
