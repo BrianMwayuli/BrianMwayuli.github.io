@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Mwayuli's Get to school</title>
+    <link id="darkSheet" rel="stylesheet" media="none" href="css/dark.css">
+    <link id="lightSheet" rel="stylesheet" href="css/style.css">
+    <style>
+            body {
+  background-image: url("img/Endrick.avif");
+}
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <div id="banner">
+            <h1>My website</h1>
+            <a href="BBC.html">about me</a> |
+            <a href="gameguide.html">Get to School</a>
+            <a href="#" onclick="changeSheet()">Change Mode</a>
+        </div>
+        <div id="blogposts">
+            <div class="post">
+                <h2>About Me</h2>
+                <p>My name is Brian and i like to play games. I playing sports for fun. I am a hard-working and driven
+                    individual who isn't afraid to face a challenge. I'm passionate about my work and I know how to get
+                    the job done. I would describe myself as an open and honest person who doesn't believe in misleading
+                    other people and tries to be fair in everything I do. </p>
+                <p>click <a href="BBC.html">here</a>to learn more</p>
+            </div>
+            <div class="post">
+                <h2>Get to school</h2>
+                <p>get to school is a smash hit indie succcess abou getting to school presumably</p>
+                <img src="img/Screenshot 2024-03-11 083745.png" alt="Game loading screen" class="left">
+                <p>click <a href="gettoschool/index.html">here</a>to play</p>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+
+<script>
+
+    var lightMode = true;
+
+    function changeSheet() {
+        // make lightMode equal NOT lightMode
+        lightMode = !lightMode;
+        var lightSheet = document.getElementById("lightSheet")
+        var darkSheet = document.getElementById("darkSheet")
+
+        // if lightmode turned off, display dark stylesheet
+        if (lightMode == false) {
+            console.log("Turning dark mode on...")
+            darkSheet.media = "";
+            lightSheet.media = "none";
+
+        } else {
+            console.log("Turning light mode on...")
+            darkSheet.media = "none";
+            lightSheet.media = "";
+
+        }
+    }
+
+
+
+</script>
+
+</html>

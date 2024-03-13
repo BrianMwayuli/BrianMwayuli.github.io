@@ -1,0 +1,38 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #003cff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgb(216, 119, 0);
+}
+
+a:hover {
+    color: rgb(50, 170, 170);
+}
+#content {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #fff45e;
+}
+#banner {
+    background-color: #ff09ff ;
+    text-align: center;
+    border: 1px solid #ffb3b3;
+    margin: 10px;
+    padding: 10px; 
+}
+#blogposts {
+    margin: 10px;
+    border: 1px solid #000000;
+    background-color: rgb(8, 0, 117);
+}
+.post {
+    margin: 10px;
+    border: 1px solid #e7dbdb;
+    padding: 10px;
+    background-color: #6affa8;
+}
